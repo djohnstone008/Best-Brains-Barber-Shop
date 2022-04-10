@@ -1,14 +1,14 @@
 /*-------- Universal styles -------*/
 
 body {
-    background-size: 100% 100%;
-    background-image: url(images/); 
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-size: 20% 20%;
+    background-image: url(images/background.jpg); 
+    background-repeat: repeat;
 }
 
 h1 {
-padding: 4rem;
+padding: 2rem;
+margin-bottom: 10rem;
 font-size: 5rem;
 font-family: 'Oleo Script Swash Caps', cursive;
 }
@@ -17,7 +17,7 @@ font-family: 'Oleo Script Swash Caps', cursive;
 
 .center {
 text-align: center;
-) 
+}
 
 .padded-lg {
 padding: 10%;
@@ -40,6 +40,7 @@ margin: 5rem;
 }
 
 /*------ Custom classes -------*/
+
 .parent {
   position: relative;
   top: 0;
@@ -50,107 +51,48 @@ margin: 5rem;
  position: relative;
   top: 0;
   left: 0;
-  border: 1px red solid;
   z-index: 1;
 }
 
 .man {
  position: absolute;
-  top: 300px;
-  left: 300px;
-  border: 1px green solid;
+  left: 10vw;
+  z-index: 2;
+}
+
+.frame {
+  border: 1rem solid #673400;
+  position: absolute;
   z-index: 3;
 }
 
-______________________________________
-/*
-#sign2 {
-position: absolute; right: 25%; bottom: 7%; width: 30%; height: 35%;
+.pole {
+  position: absolute;
+  z-index: 3;
 }
 
-/* seashells */
-
-/* #sign3 {
-width: 30%; height: 30%;
-vertical-align: bottom;
+.scissors {
+  position: absolute;
+  z-index: 3;
+  background-color: white;
+  padding: 0.5rem;
 }
 
-#sea-shells-by-the-sea-shore {
-position: absolute; top: 5%; left: 5%; width: 90%; text-align: center;
+.razor {
+  position: absolute;
+  z-index: 3;
+  background-color: white;
+  padding: 0.5rem;
 }
 
-#shell-line-1, #shell-line-2 {
-padding: 1em;
-justify-content: center;
+.electric-razor {
+  position: absolute;
+  z-index: 3;
+  background-color: white;
+  padding: 0.5rem;
 }
 
-#shell-line-1 {
-background-image: linear-gradient(180deg, #1d5c22, #f3f207);
-border-radius: 1em 1em 0 0;
+.trimmings {
+  position: absolute;
+  z-index: 4;
 }
-
-#shell-line-2 {
-background-image: linear-gradient(180deg, #f3f207, #00bcd4);
-border-radius: 0 0 1em 1em;
-}
-
-.shell {
-width: 12vw; height: 25vh;
-}
-
-/* xmarks */
-
-/* .unlocked {
-transition: all .5s ease-in;
-}
-
-.unlocked:hover {
-transform: translate(0, -30%);
-}
-
-#monkey {
-position: absolute; bottom: 35%; width: 20%; height: 30%; right: 15%; 
-background-image: url(images/monkey.png); background-size: 100% 100%;
-}
-
-#key {
-position: absolute; bottom: 0%; left: 10%; width: 25%; height: 25%;
-}
-
-#tree3 {
-position: absolute; bottom: 5%; width: 40%; height: 80%; right: 5%;
-}
-
-#chest {
-position: absolute; bottom: 5%; width: 30%; height: 40%; left: 15%;
-}
-
-#lock {
-position: absolute; bottom: 15%; width: 20%; height: 30%; left: 21%;
-}
-
-#lock::before {
-content: ''; position: absolute; bottom: 0; left: 21%; width: 20%; height: 25%;
-background-image: url(images/lock-back.png); background-size: 100% 100%;
-}
-
-#lock::after {
-content: ''; position: absolute; bottom: 0; left: 21%; width: 20%; height: 25%;
-background-image: url(images/lock-front.png); background-size: 100% 100%;
-}
-
-.lock {
-position: absolute; bottom: 0; left: 21%; width: 20%; height: 25%;
-}
-
-#lid {
-position: absolute; bottom: -35%; width: 30%; height: 80%; left: 15%;
-}
-
-#monkey.nice #key {
-  animation-duration: 1s;
-  animation-name: dropkey;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in;
-  animation-delay: 0.5s;
-} */
